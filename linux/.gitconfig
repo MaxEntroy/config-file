@@ -1,13 +1,13 @@
 [user]
-	email = likang@tju.edu.cn
-	name = kang
+    email = likang@tju.edu.cn
+    name = kang
 [push]
-	default = matching
+    default = matching
 [color]
-	ui = true
+    ui = true
 [alias]
-	br = branch
-	st = status
+    br = branch
+    st = status
     co = checkout
     cm = commit
     ca = commit --amend
