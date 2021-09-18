@@ -1,0 +1,12 @@
+# kungli@tencent.com
+Host git.xx.xx.com
+    HostName git.xx.xx.com
+    Port xx
+    IdentityFile ~/.ssh/id_rsa
+
+# likang@tju.edu.com
+Host github.com
+    HostName github.com
+    Port xx
+    IdentityFile ~/.ssh/id_rsa_github
+    ProxyCommand corkscrew dev-proxy.xx.com gateway_port %h %p
