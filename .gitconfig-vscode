@@ -1,0 +1,48 @@
+[user]
+[push]
+  default = matching
+[color]
+  ui = true
+[alias]
+  br = branch -vv
+  st = status
+  co = checkout
+  cm = commit
+  ca = commit --amend
+  df = difftool
+  lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --
+  ref = reflog
+  sm = submodule
+  fi = fetch origin -p
+  fu = fetch ups -p
+  mr = merge
+[core]
+  editor = code --wait
+  autocrlf = input
+[diff]
+  tool = vscode
+[difftool "vscode"]
+  cmd = code --wait --diff $LOCAL $REMOTE
+[credential]
+	helper = store
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[url "http://"]
+  insteadOf = https://
+[url "http://private:LWjFkfMCkdWBGOQ_rRmR@git.code.oa.com/"]
+    insteadof = https://git.code.oa.com/
+    insteadof = http://git.code.oa.com/
+    insteadof = https://git.code.oa.com/
+    insteadof = http://git.code.oa.com/
+    insteadof = https://git.code.oa.com/
+    insteadof = http://git.code.oa.com/
+[url "http://private:LWjFkfMCkdWBGOQ_rRmR@git.woa.com/"]
+    insteadof = https://git.woa.com/
+    insteadof = http://git.woa.com/
+    insteadof = https://git.woa.com/
+    insteadof = http://git.woa.com/
+    insteadof = https://git.woa.com/
+    insteadof = http://git.woa.com/
