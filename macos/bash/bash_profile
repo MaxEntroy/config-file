@@ -97,6 +97,9 @@ normal=$'\[\e[m\]'
 
 PS1="$green\u$white@$green\h:$cyan\w$yellow\$git_branch$normal\$ "
 
+# turn off zsh notification
+export BASH_SILENCE_DEPRECATION_WARNING=1
+
 # homebrew
 export PATH=$PATH:/opt/homebrew/bin/
 
