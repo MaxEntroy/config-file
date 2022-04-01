@@ -1,0 +1,18 @@
+# kungli@tencent.com
+Host git.code.oa.com
+    HostName git.code.oa.com
+    Port xx
+    IdentityFile ~/.ssh/id_rsa_oa
+
+# likang@tju.edu.cn
+Host github.com
+    HostName github.com
+    Port xx
+    IdentityFile ~/.ssh/id_rsa_github
+
+# mnet2.com
+Host *.mnet2.com
+    ProxyCommand corkscrew xx.xx.xx.xx xxxxx %h %p
+    ServerAliveInterval 10
+    ControlMaster auto
+    ControlPath ~/.ssh/master-%r@%h:%p

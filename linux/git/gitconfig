@@ -30,19 +30,3 @@
 	smudge = git-lfs smudge -- %f
 	process = git-lfs filter-process
 	required = true
-[url "http://"]
-  insteadOf = https://
-[url "http://private:LWjFkfMCkdWBGOQ_rRmR@git.code.oa.com/"]
-    insteadof = https://git.code.oa.com/
-    insteadof = http://git.code.oa.com/
-    insteadof = https://git.code.oa.com/
-    insteadof = http://git.code.oa.com/
-    insteadof = https://git.code.oa.com/
-    insteadof = http://git.code.oa.com/
-[url "http://private:LWjFkfMCkdWBGOQ_rRmR@git.woa.com/"]
-    insteadof = https://git.woa.com/
-    insteadof = http://git.woa.com/
-    insteadof = https://git.woa.com/
-    insteadof = http://git.woa.com/
-    insteadof = https://git.woa.com/
-    insteadof = http://git.woa.com/
