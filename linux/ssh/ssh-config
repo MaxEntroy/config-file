@@ -1,12 +1,21 @@
-# kungli@tencent.com
-Host git.xx.xx.com
-    HostName git.xx.xx.com
-    Port xx
-    IdentityFile ~/.ssh/id_rsa
-
-# likang@tju.edu.com
+# xx@yourPersonalMail
 Host github.com
     HostName github.com
     Port xx
     IdentityFile ~/.ssh/id_rsa_github
     ProxyCommand corkscrew dev-proxy.xx.com gateway_port %h %p
+
+# xx@yourCompany.com
+Host git.xx.xx.com
+    HostName git.xx.xx.com
+    Port xx
+    IdentityFile ~/.ssh/id_rsa
+
+# cvm
+Host *.devcloud.woa.com
+  HostName xx.xx.xx.xx
+  Port xxx
+  User root
+  IdentityFile ~/.ssh/id_rsa
+  ServerAliveInterval 30
+  TCPKeepAlive yes
